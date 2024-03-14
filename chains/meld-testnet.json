@@ -1,0 +1,25 @@
+{
+  "alias": "meld-testnet",
+  "blockTimeMs": 13682,
+  "decimals": 18,
+  "explorer": {
+    "api": {
+      "key": {
+        "required": false
+      },
+      "url": "https://api-testnet.meldscan.io/api"
+    },
+    "browserUrl": "https://testnet.meldscan.io/"
+  },
+  "id": "222000222",
+  "name": "Meld Testnet",
+  "providers": [
+    {
+      "alias": "default",
+      "rpcUrl": "https://testnet-rpc.meld.com"
+    }
+  ],
+  "skipProviderCheck": true,
+  "symbol": "gMELD",
+  "testnet": true
+}

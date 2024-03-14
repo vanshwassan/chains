@@ -1,0 +1,25 @@
+{
+  "alias": "opbnb-testnet",
+  "blockTimeMs": 1000,
+  "decimals": 18,
+  "explorer": {
+    "api": {
+      "key": {
+        "required": true
+      },
+      "url": "https://opbnb-testnet.bscscan.com/api/"
+    },
+    "browserUrl": "https://opbnb-testnet.bscscan.com/"
+  },
+  "id": "5611",
+  "name": "opBNB Testnet",
+  "providers": [
+    {
+      "alias": "default",
+      "rpcUrl": "https://opbnb-testnet-rpc.bnbchain.org"
+    }
+  ],
+  "skipProviderCheck": true,
+  "symbol": "tBNB",
+  "testnet": true
+}

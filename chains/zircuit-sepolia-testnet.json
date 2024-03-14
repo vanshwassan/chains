@@ -1,0 +1,25 @@
+{
+  "alias": "zircuit-sepolia-testnet",
+  "blockTimeMs": 2000,
+  "decimals": 18,
+  "explorer": {
+    "api": {
+      "key": {
+        "required": true
+      },
+      "url": "https://testnetscan-api.zircuit.com/"
+    },
+    "browserUrl": "https://explorer.zircuit.com/"
+  },
+  "id": "48899",
+  "name": "Zircuit Sepolia Testnet",
+  "providers": [
+    {
+      "alias": "default",
+      "rpcUrl": "https://zircuit1.p2pify.com"
+    }
+  ],
+  "skipProviderCheck": true,
+  "symbol": "ETH",
+  "testnet": true
+}

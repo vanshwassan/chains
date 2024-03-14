@@ -1,0 +1,25 @@
+{
+  "alias": "fiefdom-testnet",
+  "blockTimeMs": 2000,
+  "decimals": 18,
+  "explorer": {
+    "api": {
+      "key": {
+        "required": false
+      },
+      "url": "https://explorer.playground.fiefdom.gg/api"
+    },
+    "browserUrl": "https://explorer.playground.fiefdom.gg/"
+  },
+  "id": "712",
+  "name": "Fiefdom Testnet",
+  "providers": [
+    {
+      "alias": "default",
+      "rpcUrl": "https://fiefdom-playground.calderachain.xyz/http"
+    }
+  ],
+  "skipProviderCheck": true,
+  "symbol": "FIEF",
+  "testnet": true
+}

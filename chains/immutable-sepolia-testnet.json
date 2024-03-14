@@ -1,0 +1,25 @@
+{
+  "alias": "immutable-sepolia-testnet",
+  "blockTimeMs": 2000,
+  "decimals": 18,
+  "explorer": {
+    "api": {
+      "key": {
+        "required": false
+      },
+      "url": "https://explorer.testnet.immutable.com/api"
+    },
+    "browserUrl": "https://explorer.testnet.immutable.com/"
+  },
+  "id": "13473",
+  "name": "Immutable Sepolia Testnet",
+  "providers": [
+    {
+      "alias": "default",
+      "rpcUrl": "https://rpc.testnet.immutable.com"
+    }
+  ],
+  "skipProviderCheck": true,
+  "symbol": "tIMX",
+  "testnet": true
+}
